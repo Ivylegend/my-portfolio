@@ -51,7 +51,7 @@ const Experience = () => {
               <BsPatchCheckFill />
               <div>
                 <h4>Nextjs</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Average</small>
               </div>
             </article>
           </div>

@@ -18,8 +18,14 @@
 }
 
 .portfolio__item-img {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   overflow: hidden;
+}
+
+.portfolio__item-img img:hover{
+  transform: scale(110%);
+  transition: var(--transition);
+  cursor: pointer;
 }
 
 .portfolio__item h3 {
@@ -30,6 +36,12 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolio__item-cta a{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }
 
 @media screen and (max-width: 1024px) {

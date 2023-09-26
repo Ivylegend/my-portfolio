@@ -1,6 +1,10 @@
 import React from "react";
-import Box from "../../assets/Rectangle.png";
+import Gericht from "../../assets/gericht.png";
+import getlinked from "../../assets/get-linked.png";
+import hoobank from "../../assets/hoobank.png";
+import moviebox from "../../assets/movie-box.png";
 import "./Portfolio.css";
+import { FaLink } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
@@ -11,7 +15,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={Box} />
+            <img src={Gericht} />
           </div>
           <h3>Gericht Fine Dining</h3>
           <div className="portfolio__item-cta">
@@ -21,6 +25,7 @@ const Portfolio = () => {
               className="btn"
             >
               Github
+              <FaLink />
             </a>
             <a
               href="https://ivys-gericht-fine-dining.netlify.app"
@@ -33,9 +38,9 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={Box} />
+            <img src={hoobank} />
           </div>
-          <h3>GPT 3</h3>
+          <h3>Hoobank Web App</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Ivylegend/hoobank-app"
@@ -43,6 +48,7 @@ const Portfolio = () => {
               className="btn"
             >
               Github
+              <FaLink />
             </a>
             <a
               href="https://ivys-hoobank-app.netlify.app/"
@@ -55,7 +61,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={Box} />
+            <img src={moviebox} />
           </div>
           <h3>My Movie Box</h3>
           <div className="portfolio__item-cta">
@@ -65,6 +71,7 @@ const Portfolio = () => {
               className="btn"
             >
               Github
+              <FaLink />
             </a>
             <a
               href="https://ivys-movies.netlify.app"
@@ -77,9 +84,9 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-img">
-            <img src={Box} />
+            <img src={getlinked} />
           </div>
-          <h3>Item Title</h3>
+          <h3>Get Linked: A Hackathon Project</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Ivylegend/GetLinked"
@@ -87,6 +94,7 @@ const Portfolio = () => {
               className="btn"
             >
               Github
+              <FaLink />
             </a>
             <a
               href="https://ivys-getlinked.netlify.app"

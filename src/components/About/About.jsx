@@ -3,7 +3,7 @@ import Me from "../../assets/me.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import './About.css';
+import "./About.css";
 
 const About = () => {
   return (
@@ -22,28 +22,31 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              <small>3+ years</small>
+              <small>2+ years</small>
             </article>
             <article className="about__card">
               <FiUsers className="about-icon" />
               <h5>Clients</h5>
-              <small>300+ clients</small>
+              <small>10+ clients</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about-icon" />
               <h5>Projects</h5>
-              <small>80+ completed projects</small>
+              <small>20+ completed projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-            dicta tempora! Impedit blanditiis illo minus odio omnis aut
-            assumenda, architecto perspiciatis, expedita deleniti nobis?
-            Similique fugiat iure obcaecati consequuntur ea!
+            I am a budding Frontend Developer with over 3 years of experience in
+            crafting user-friendly websites. My passion lies in turning creative
+            ideas into engaging digital experiences. I thrive on problem-solving
+            and continuously seek innovative solutions to deliver outstanding
+            results for clients and users alike.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ const Contact = () => {
             <MdEmail />
             <h4>Telegram</h4>
             <h5>Ivylegend</h5>
-            <a href="" target="_blank">
+            <a href="https://t.me/ivyLegend" target="_blank">
               Send a message
             </a>
           </article>
@@ -29,8 +29,8 @@ const Contact = () => {
             <MdEmail />
             <h4>Twitter</h4>
             <h5>Ivy_codes</h5>
-            <a href="" target="_blank">
-              Send a message
+            <a href="https://twitter.com/ivy_codes" target="_blank">
+              Check me out on Twitter
             </a>
           </article>
         </div>
