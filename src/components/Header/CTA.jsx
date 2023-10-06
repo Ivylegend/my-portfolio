@@ -1,11 +1,11 @@
 import React from "react";
-import Me from "../../assets/mypics.png";
+import Cv from "../../assets/my-cv.pdf";
 // import my cv
 
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={Me} download className="btn">
+      <a href={Cv} download className="btn">
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">Let's Talk</a>
